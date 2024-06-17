@@ -1,6 +1,7 @@
 import { ChevronRightIcon } from 'lucide-react';
 import Link from 'next/link';
 
+import { ThemeToggle } from '@/components/ThemeToggle';
 import IconCloud from '@/components/magicui/IconCloud';
 import { Button } from '@/components/ui';
 
@@ -26,6 +27,7 @@ export default function WelcomeSection() {
 								<ChevronRightIcon className="ml-1 h-5 w-5" />
 							</Link>
 						</Button>
+						<ThemeToggle />
 					</div>
 				</div>
 				<div className="max-w-[16rem] md:max-w-[20rem] lg:max-w-[28rem] mx-auto">
