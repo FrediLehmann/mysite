@@ -15,13 +15,13 @@ export default function WelcomeSection() {
 					<span className="text-lg md:text-xl">Welcome to the personal website of</span>
 					<h1 className="text-3xl md:text-5xl font-bold">Frederic Lehmann </h1>
 					<div className="flex flex-col md:flex-row space-y-3 md:space-y-0 space-x-0 md:space-x-3 items-center">
-						<Button asChild className="w-full">
+						<Button asChild className="w-full md:w-auto">
 							<Link href="#contact">
 								Contact me
 								<ChevronRightIcon className="ml-1 h-5 w-5" />
 							</Link>
 						</Button>
-						<Button asChild variant="secondary" className="w-full">
+						<Button asChild variant="secondary" className="w-full md:w-auto">
 							<Link href="#work">
 								See my work
 								<ChevronRightIcon className="ml-1 h-5 w-5" />
