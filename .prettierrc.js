@@ -5,7 +5,10 @@ const config = {
 	trailingComma: 'none',
 	printWidth: 100,
 	bracketSameLine: true,
-	plugins: ['prettier-plugin-tailwindcss']
+	plugins: ['prettier-plugin-tailwindcss', '@trivago/prettier-plugin-sort-imports'],
+	importOrder: ['^@/components/(.*)$', '^[./]'],
+	importOrderSeparation: true,
+	importOrderSortSpecifiers: true
 };
 
 module.exports = config;
