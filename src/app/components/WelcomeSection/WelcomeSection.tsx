@@ -2,6 +2,7 @@ import { ChevronRightIcon } from 'lucide-react';
 import Link from 'next/link';
 
 import { ThemeToggle } from '@/components/ThemeToggle';
+import { GithubIcon, LinkedInIcon } from '@/components/icons';
 import IconCloud from '@/components/magicui/IconCloud';
 import { Button } from '@/components/ui';
 
@@ -25,6 +26,18 @@ export default function WelcomeSection() {
 							<Link href="#work">
 								See my work
 								<ChevronRightIcon className="ml-1 h-5 w-5" />
+							</Link>
+						</Button>
+					</div>
+					<div className="flex space-x-2 justify-center md:justify-start">
+						<Button asChild size="icon" variant="outline">
+							<Link href="https://github.com/FrediLehmann">
+								<GithubIcon className="h-5 w-5 dark:fill-white" />
+							</Link>
+						</Button>
+						<Button asChild size="icon" variant="outline">
+							<Link href="https://www.linkedin.com/in/frederic-lehmann/">
+								<LinkedInIcon className="h-5 w-5 dark:fill-white" />
 							</Link>
 						</Button>
 						<ThemeToggle />
