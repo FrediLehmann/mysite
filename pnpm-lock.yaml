@@ -21,8 +21,8 @@ importers:
         specifier: ^2.1.1
         version: 2.1.1
       framer-motion:
-        specifier: ^11.2.10
-        version: 11.2.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^11.2.11
+        version: 11.2.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       lucide-react:
         specifier: ^0.395.0
         version: 0.395.0(react@18.3.1)
@@ -52,8 +52,8 @@ importers:
         specifier: ^4.3.0
         version: 4.3.0(prettier@3.3.2)
       '@types/node':
-        specifier: ^20.14.5
-        version: 20.14.5
+        specifier: ^20.14.6
+        version: 20.14.6
       '@types/react':
         specifier: ^18.3.3
         version: 18.3.3
@@ -579,8 +579,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@20.14.5':
-    resolution: {integrity: sha512-aoRR+fJkZT2l0aGOJhuA8frnCSoNX6W7U2mpNq63+BxBIj5BQFt8rHy627kijCmm63ijdSdwvGgpUsU6MBsZZA==}
+  '@types/node@20.14.6':
+    resolution: {integrity: sha512-JbA0XIJPL1IiNnU7PFxDXyfAwcwVVrOoqyzzyQTyMeVhBzkJVMSkC1LlVsRQ2lpqiY4n6Bb9oCS6lzDKVQxbZw==}
 
   '@types/prop-types@15.7.12':
     resolution: {integrity: sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==}
@@ -1013,8 +1013,8 @@ packages:
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
 
-  eslint-plugin-react@7.34.2:
-    resolution: {integrity: sha512-2HCmrU+/JNigDN6tg55cRDKCQWicYAPB38JGSFDQt95jDm8rrvSUo7YPkOIm5l6ts1j1zCvysNcasvfTMQzUOw==}
+  eslint-plugin-react@7.34.3:
+    resolution: {integrity: sha512-aoW4MV891jkUulwDApQbPYTVZmeuSyFrudpbTAQuj5Fv8VL+o6df2xIGpw8B0hPjAaih1/Fb0om9grCdyFYemA==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
@@ -1094,8 +1094,8 @@ packages:
     resolution: {integrity: sha512-PXUUyLqrR2XCWICfv6ukppP96sdFwWbNEnfEMt7jNsISjMsvaLNinAHNDYyvkyU+SZG2BTSbT5NjG+vZslfGTA==}
     engines: {node: '>=14'}
 
-  framer-motion@11.2.10:
-    resolution: {integrity: sha512-/gr3PLZUVFCc86a9MqCUboVrALscrdluzTb3yew+2/qKBU8CX6nzs918/SRBRCqaPbx0TZP10CB6yFgK2C5cYQ==}
+  framer-motion@11.2.11:
+    resolution: {integrity: sha512-n+ozoEzgJu/2h9NoQMokF+CwNqIRVyuRC4RwMPwklfrrTjbVV32k9uBIgqYAwn7Jfpt5LuDVCtT57MWz1FbaLw==}
     peerDependencies:
       '@emotion/is-prop-valid': '*'
       react: ^18.0.0
@@ -1154,8 +1154,8 @@ packages:
     engines: {node: '>=16 || 14 >=14.17'}
     hasBin: true
 
-  glob@10.4.1:
-    resolution: {integrity: sha512-2jelhlq3E4ho74ZyVLN03oKdAZVUa6UDZzFLVH1H7dnoax+y9qyaq8zBkfDIggjniU19z0wU18y16jMB2eyVIw==}
+  glob@10.4.2:
+    resolution: {integrity: sha512-GwMlUF6PkPo3Gk21UxkCohOv0PLcIXVtKyLlpEI28R/cO/4eNOdmLk3CMW1wROV/WR/EsZOWAfBbBOqYvs88/w==}
     engines: {node: '>=16 || 14 >=14.18'}
     hasBin: true
 
@@ -1577,6 +1577,9 @@ packages:
   p-locate@5.0.0:
     resolution: {integrity: sha512-LaNjtRWUBY++zB5nE/NwcaoMylSPk+S+ZHNB1TzdbMJMny6dynpAGt7X/tl/QYq3TIeE6nxHppbo2LGymrG5Pw==}
     engines: {node: '>=10'}
+
+  package-json-from-dist@1.0.0:
+    resolution: {integrity: sha512-dATvCeZN/8wQsGywez1mzHtTlP22H8OEfPrVMLNr4/eGa+ijtLn/6M5f0dY8UKNrC2O9UCU6SSoG3qRKnt7STw==}
 
   parent-module@1.0.1:
     resolution: {integrity: sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g==}
@@ -2616,7 +2619,7 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@20.14.5':
+  '@types/node@20.14.6':
     dependencies:
       undici-types: 5.26.5
 
@@ -3076,9 +3079,9 @@ snapshots:
       eslint: 8.57.0
       eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.6.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint@8.57.0)
-      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.4.5))(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint@8.57.0))(eslint@8.57.0)
+      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.4.5))(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0)
       eslint-plugin-jsx-a11y: 6.8.0(eslint@8.57.0)
-      eslint-plugin-react: 7.34.2(eslint@8.57.0)
+      eslint-plugin-react: 7.34.3(eslint@8.57.0)
       eslint-plugin-react-hooks: 4.6.2(eslint@8.57.0)
     optionalDependencies:
       typescript: 5.4.5
@@ -3104,7 +3107,7 @@ snapshots:
       enhanced-resolve: 5.17.0
       eslint: 8.57.0
       eslint-module-utils: 2.8.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint@8.57.0))(eslint@8.57.0)
-      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.4.5))(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint@8.57.0))(eslint@8.57.0)
+      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.4.5))(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0)
       fast-glob: 3.3.2
       get-tsconfig: 4.7.5
       is-core-module: 2.13.1
@@ -3126,7 +3129,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.4.5))(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint@8.57.0))(eslint@8.57.0):
+  eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.4.5))(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0):
     dependencies:
       array-includes: 3.1.8
       array.prototype.findlastindex: 1.2.5
@@ -3177,7 +3180,7 @@ snapshots:
     dependencies:
       eslint: 8.57.0
 
-  eslint-plugin-react@7.34.2(eslint@8.57.0):
+  eslint-plugin-react@7.34.3(eslint@8.57.0):
     dependencies:
       array-includes: 3.1.8
       array.prototype.findlast: 1.2.5
@@ -3315,7 +3318,7 @@ snapshots:
       cross-spawn: 7.0.3
       signal-exit: 4.1.0
 
-  framer-motion@11.2.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  framer-motion@11.2.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       tslib: 2.6.3
     optionalDependencies:
@@ -3374,12 +3377,13 @@ snapshots:
       minipass: 7.1.2
       path-scurry: 1.11.1
 
-  glob@10.4.1:
+  glob@10.4.2:
     dependencies:
       foreground-child: 3.2.1
       jackspeak: 3.4.0
       minimatch: 9.0.4
       minipass: 7.1.2
+      package-json-from-dist: 1.0.0
       path-scurry: 1.11.1
 
   glob@7.2.3:
@@ -3793,6 +3797,8 @@ snapshots:
     dependencies:
       p-limit: 3.1.0
 
+  package-json-from-dist@1.0.0: {}
+
   parent-module@1.0.1:
     dependencies:
       callsites: 3.1.0
@@ -4110,7 +4116,7 @@ snapshots:
     dependencies:
       '@jridgewell/gen-mapping': 0.3.5
       commander: 4.1.1
-      glob: 10.4.1
+      glob: 10.4.2
       lines-and-columns: 1.2.4
       mz: 2.7.0
       pirates: 4.0.6
