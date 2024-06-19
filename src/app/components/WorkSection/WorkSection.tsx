@@ -34,6 +34,13 @@ export default function WorkSection() {
 					tags={['React', 'TypeScript', 'Nextjs', 'Supabase']}
 					url="https://www.tellytics.ch"
 				/>
+				<ProjectCard
+					label="Velogruppe 60 Plus"
+					timeframe="2022 - Present"
+					description="Platform for my father to digitalise his cycling club. The platform is used to communicate and plan cycling tours."
+					tags={['React', 'TypeScript', 'Nextjs', 'ChakraUI', 'Supabase']}
+					url="https://www.velogruppe60plus-sensetal.ch"
+				/>
 			</div>
 		</section>
 	);
