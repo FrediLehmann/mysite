@@ -8,7 +8,7 @@ export default function WorkSection() {
 			<h2 className="text-lg md:text-2xl font-bold">Examples of my work</h2>
 			<p className="text-md md:text-lg max-w-xl text-gray-500 dark:text-gray-300 text-center">
 				Since I started my career in engineering, I&apos;ve always worked on web applications of
-				various sizes. Either fixed on a product or as a contractor for varying clients.
+				various sizes. Either on a product or as a contractor for varying clients.
 			</p>
 			<div className="flex flex-wrap gap-4 pt-8 max-w-5xl justify-center">
 				<ProjectCard
@@ -26,6 +26,13 @@ export default function WorkSection() {
 					tags={['React', 'TypeScript', 'Nextjs', 'Nestjs', 'Socket.io']}
 					url="https://www.beratungshero.ch"
 					work
+				/>
+				<ProjectCard
+					label="Wayless"
+					timeframe="2024 - Present"
+					description="Wayless is a product enabling users to order prints of their PDF documents. Using Wayless you can order a print out to your home address or wherever you need it ot be sent"
+					tags={['React', 'TypeScript', 'Redux', 'Node.js', 'Supabase']}
+					url="https://wayless.ch"
 				/>
 				<ProjectCard
 					label="Tellytics"
