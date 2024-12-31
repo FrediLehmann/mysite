@@ -30,7 +30,7 @@ export default function ContactForm() {
 	}
 
 	return (
-		<form className="w-[400px] space-y-4" onSubmit={submitForm}>
+		<form className="w-[400px] space-y-4 pt-8" onSubmit={submitForm}>
 			<div>
 				<Label htmlFor="name">Name</Label>
 				<Input id="name" type="text" required />
