@@ -20,7 +20,7 @@ export default function ProjectCard({
 	work?: boolean;
 }) {
 	return (
-		<div className="border rounded py-2 px-3 w-72 flex flex-col">
+		<div className="border rounded py-3 px-4 w-72 flex flex-col">
 			<h3 className="font-semibold text-lg">{label}</h3>
 			<div className="flex items-center gap-3">
 				<span className="text-gray-800 dark:text-gray-200 font-light text-sm">{timeframe}</span>
@@ -34,8 +34,8 @@ export default function ProjectCard({
 					{work ? 'Work' : 'Private'}
 				</div>
 			</div>
-			<p className=" text-gray-600 dark:text-gray-300 mt-3 mb-6">{description}</p>
-			<div className="mt-auto space-y-3">
+			<p className=" text-gray-600 dark:text-gray-300 mt-4 mb-6">{description}</p>
+			<div className="mt-auto space-y-4">
 				<div className="flex flex-wrap gap-2 text-sm">
 					{tags.map((tag) => (
 						<Badge key={tag} variant="secondary">
