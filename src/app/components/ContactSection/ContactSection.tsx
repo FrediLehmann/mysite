@@ -16,7 +16,7 @@ export default function ContactSection() {
 				about me you can download my CV.
 			</p>
 			<Button asChild variant="link" className="gap-2">
-				<Link href="public/FrediLehmann_CV.pdf" target="_blank" rel="noopener noreferrer">
+				<Link href="FrediLehmann_CV.pdf" target="_blank" rel="noopener noreferrer">
 					Curriculum Vitae <DownloadIcon className="w-5 h-5" />
 				</Link>
 			</Button>
