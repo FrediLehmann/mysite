@@ -7,8 +7,8 @@ export default function WorkSection() {
 			className="py-12 md:py-24 lg:py-32 container mx-auto space-y-2 items-center flex flex-col">
 			<h2 className="text-lg md:text-2xl font-bold">Examples of my work</h2>
 			<p className="text-md md:text-lg max-w-xl text-gray-500 dark:text-gray-300 text-center">
-				Since I started my career in engineering, I've always worked on web applications of various
-				sizes, either on a product or as a contractor for various clients.
+				Since I started my career in engineering, I&apos;ve always worked on web applications of
+				various sizes, either on a product or as a contractor for various clients.
 			</p>
 			<div className="flex flex-wrap gap-4 pt-8 max-w-5xl justify-center">
 				<ProjectCard
