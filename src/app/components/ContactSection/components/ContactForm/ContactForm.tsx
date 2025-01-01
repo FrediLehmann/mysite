@@ -30,16 +30,16 @@ export default function ContactForm() {
 	}
 
 	return (
-		<form className="w-[400px] space-y-4 pt-8" onSubmit={submitForm}>
-			<div>
+		<form className="w-full sm:w-1/2 lg:w-1/3 space-y-4 pt-8" onSubmit={submitForm}>
+			<div className="space-y-1">
 				<Label htmlFor="name">Name</Label>
 				<Input id="name" type="text" required />
 			</div>
-			<div>
+			<div className="space-y-1">
 				<Label htmlFor="email">E-Mail</Label>
 				<Input id="email" type="email" required />
 			</div>
-			<div>
+			<div className="space-y-1">
 				<Label htmlFor="comment">Comment</Label>
 				<Textarea id="comment" placeholder="What do you wan't me to know" required />
 			</div>
