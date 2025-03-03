@@ -21,7 +21,7 @@ export default function WorkSection() {
 				/>
 				<ProjectCard
 					label="Beratungshero"
-					timeframe="2023 - Present"
+					timeframe="2023 - 2025"
 					description="Beratungshero is a realtime video consulting application. As the lead engineer at Berataungshero, it's my responsibility to build and maintain the platform. Making it fit for the future."
 					tags={['React', 'TypeScript', 'Nextjs', 'Nestjs', 'Socket.io']}
 					url="https://www.beratungshero.ch"
