@@ -48,7 +48,7 @@ export default function WelcomeSection() {
 						<ThemeToggle />
 					</div>
 				</div>
-				<div className="max-w-[16rem] md:max-w-[20rem] lg:max-w-[28rem] mx-auto">
+				<div className="max-w-[16rem] md:max-w-[20rem] lg:max-w-md mx-auto">
 					<IconCloud iconSlugs={ICON_SLUGS} />
 				</div>
 			</div>
