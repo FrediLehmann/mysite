@@ -1,5 +1,6 @@
 pnpm-lock.yaml
 
 *.min.js
+*.css
 
 .vscode
